@@ -3,6 +3,8 @@ A simple demo of implementing cat and dog classification
 
 这个项目是一个简单的使用resnet18实现猫狗分类的例子，主要学习：1）是神经网络实现分类的原理
 2）了解模型优化流程：数据处理、损失计算、反向传播等 3）熟悉如何使用torch加载图片数据、搭建模型、训练模型。
+
+![img.png](doc/img1.png)
 ## 环境准备
  pip install -r requirement.txt
 ## 数据集准备
@@ -16,6 +18,7 @@ Kaggle猫狗数据集下载地址：https://www.microsoft.com/en-us/download/det
 python train.py 
 
 训练日志输出：
+
 ![img.png](doc/img.png)
 
 ## 单张图片测试
